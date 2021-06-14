@@ -1,0 +1,163 @@
+main {
+   
+    display: flex;
+    justify-content: space-between;
+    background: rgba(136, 153, 132, 0.5);
+    
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0;
+    padding: 0;  
+}
+
+.logo {
+    widows: 130px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-style: solid;
+    border-color: rgb(54, 133, 8);    
+}
+
+h1 {
+    
+    font-size: 40px;
+    padding: 0;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+header {
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(36, 92%, 38%);
+}
+
+ul {
+    font-size: 20px;
+    color: green;
+}
+
+img {
+    height: 150px;
+    widows: 270px;
+    display: flexbox;
+    margin-top:5px;
+} 
+
+.one {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.two {
+    font-size: 20px;
+    color: green;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.f{
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 5px; /* Поля вокруг текста */
+    color:rgb(63, 138, 74);
+    margin-left:640px;
+    overflow: hidden;
+    position: absolute;
+    justify-content:space-between;
+}
+.three{
+    color:rgb(30, 31, 29); 
+    font-size:20px;
+    display:block;
+}
+.f a:hover{
+    color: rgb(131, 219, 58);
+}
+.f a{
+    color:rgb(63, 138, 74);
+    text-decoration: none; 
+}
+.two a{
+    color:rgb(63, 138, 74);
+    text-decoration: none;
+}
+.two a:hover{
+    color: rgb(131, 219, 58);
+}
+.one a{
+    color:rgb(75, 161, 88);
+    text-decoration: none;
+}
+.one a:hover{
+    color: rgb(131, 219, 58);
+}
+.four a{
+    color:rgb(63, 138, 74);
+    text-decoration: none;
+}
+.five{
+    width: 300px;
+    height:300px;
+    margin-left:37%;
+    border-style:inset;
+    border-color: rgb(182, 164, 0);
+    
+   }    
+.six{
+    width: 300px;
+    height:300px;
+    margin-left:39%;
+    border-style: inset;
+    border-color: rgb(204, 186, 23);    
+}
+.row{
+    width: 500px;
+    height:300px;
+    margin-left:32%;
+    border-style: inset;
+    border-color: rgb(204, 186, 23);    
+}
+.eight{
+    color:rgb(108, 168, 29);
+    font-size:20px;
+    display:block;
+    text-align:center;
+}
+
+body{
+    color:rgb(65, 117, 112);
+    background-image:url(https://avatars.mds.yandex.net/get-pdb/1641653/ddec43a3-11ad-41eb-a129-bdaf3604c1b4/s1200);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+footer{
+    color:rgb(65, 117, 112);
+}
+.nine{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-style: inset;
+    border-color: rgb(54, 133, 8);    
+}   
+.ten{
+    width:420px;
+    height:320px;
+    margin-left:35%;
+    border-style:inset;
+    border-color: rgb(182, 164, 0);
+}
